@@ -47,6 +47,7 @@ stringToOutput = ("\t\t\t Financial Analysis\t\t\t\n----------------------------
                     "Total Months:"+str(rowCount)+"\n"
                     "Total:"+str(running_sum)+"\n"
                      "Average  Change: $"+ str(running_difference/(rowCount-1) )+"\n"
+                     "Average  : $"+ str(running_sum/rowCount )+"\n"
                       "Greatest Increase in Profits:"+max_Date+" ($)"+str(maxValue)+"\n"
                         "Greatest Decrease in Profits:"+min_Date+" ($)"+str(minValue)+"\n")
 print(stringToOutput)
